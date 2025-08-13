@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    padding: 15px 0px;
+}
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    color: #DD4889;
+}
+.cakes a{
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 10px;
+}
+.logo img{
+    width: 65%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.otherelements{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.otherelements img{
+    width: 30px;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.inputtag{
+    padding-right: 100px;
+}
+.search img{
+    position: relative;
+    width: 31px;
+    right: 34px;
+}
+input{
+    border: white solid 1px;
+    border-radius: 60px;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+.cakes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 40px;
+}
+.firstpage{
+    background-image: url(page1img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 250px 0px 250px 0px;
+}
+.firstpage h1{
+    color: white;
+    font-size: 50px;
+}
+.firstpage p{
+    color: white;
+    font-size: 25px;
+}
+.firstpage button{
+    background-color: #DD4889;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+.secondpage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-image: url(chocowave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 70px 0px;
+}
+.rightpara{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightside{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.rightpara h1{
+    color: #DD4889;
+    width: 500px;
+    font-size: 30px;
+}
+.rightpara h2{
+    color: #DD4889;
+    width: 500px;
+    font-size: 25px;
+}
+.rightpara p{
+    text-align: justify;
+    font-size: 15px;
+    width: 500px;
+}
+.button button{
+    background-color: #DD4889;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+}
+.thirdpage{
+    background-image: url(page3img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+}
+.heading h1{
+    font-size: 50px;
+    color: white;
+}
+.makerone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 200px;
+    border-bottom: solid 2px white;
+    margin: 0px 100px 0px 100px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px 100px 20px;
+}
+.about p{
+    width: 400px;
+}
+.about h1{
+    font-size: 30px;
+}
+.about h2{
+    font-size: 18px;
+}
+.name{
+    gap: 0px;
+}
+.makertwo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 200px;
+}
+.about2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 20px 100px 20px;
+}
+.about2 p{
+    width: 400px;
+}
+.about2 h1{
+    font-size: 30px;
+}
+.about2 h2{
+    font-size: 18px;
+}
+.name2{
+    gap: 0px;
+}
+.strawberrydrip img{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 150px;
+    padding: 0px 20px 100px 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.card p{
+    width: 200px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;   background-color: black;
+    color: white;
+    gap: 30px;
+    border-bottom: solid white 2px;
+    padding: 50px 0px 50px 0px;
+}
+footer h2{
+    font-size: 20px;
+    align-items: center;
+}
+.lineone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lineone img{
+    width: 30px;
+}
+.lineone h2{
+    color: #DD4889;
+}
+.footercontents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.footercontents h3{
+    color: #DD4889;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.lastline{
+    color: #DD4889;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+
+ @media screen and (max-width : 500px) {
+    /* .about,.makertwo,.about2,.cards,.card{
+        display: block;
+    } */
+    nav,.container,.logo,.otherelements,.search,.cakes,.firstpage,.secondpage,.rightpara,.rightside,.makerone,.headingfooter,.lineone,.about,.makertwo,.about2,.cards,.card,.footercontents,.foot{
+      display: flex;
+    }
+    .otherelements {
+        gap: 15px;
+    }
+    .cakes {
+        gap: 10px;
+    }
+    .firstpage{
+        padding: 50px 0px;
+    }
+    .firstpage h1{
+        padding: 0px 0px ;
+        font-size: 22px;
+    }
+    .firstpage p{
+        font-size: 12px;
+        padding: 0px 20px 0px 20px;
+    }
+    .secondpage{
+        gap: 0px;
+     }
+    .secondpage img{
+        width: 100%;
+    }
+    .rightside {
+        gap: 190px;
+        padding: 20px 20px;
+    }
+    .rightpara h1, .rightpara h2, .rightpara p {
+        font-size:25px;
+        width: auto;
+    }
+    .heading img {
+        width: 100%;
+    }
+    .makerone, .makertwo{
+        margin: 0px;
+        gap: 20px;
+    }
+    .about, .about2{
+        padding: 0px;
+    }
+    .man img{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .woman img{
+        padding-bottom: 50px;
+    }
+    .cards{
+        gap: 20px;
+        padding: 0px 0px 70px 115px;
+    }
+    .footercontents {
+        gap: 24px;
+    }
+}
+
+ @media (min-width:700px) and(max-width:880px){
+
+ }

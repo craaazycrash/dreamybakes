@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    padding: 15px 0px;
+}
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    color: white;
+}
+.cakes a{
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 10px;
+}
+.logo img{
+    width: 65%;
+}
+a{
+    text-decoration: none;
+}
+.otherelements{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.otherelements img{
+    width: 30px;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.inputtag{
+    padding-right: 100px;
+}
+.search img{
+    position: relative;
+    width: 31px;
+    right: 34px;
+}
+input{
+    border: white solid 1px;
+    border-radius: 60px;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+}
+input::placeholder{
+    color: white;
+}
+.cakes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.cakes p1{
+    color: #DD4889;
+}
+.cakes p2{
+    color: white;
+}
+.firstpage{
+    background-image: url(page4main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 110vh; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 250px 0px 250px 0px;
+}
+.firstpage h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 5px #DD4889;
+    font-size: 50px;
+}
+.firstpage p{
+    color: white;
+    font-size: 25px;
+    padding: 0px 200px 0px 200px;
+}
+.secondpage{
+    background-color: black;
+    color: white;
+}
+.black1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    flex-direction: column; 
+    gap: 30px;
+    margin: 80px 0px;
+}
+.left {
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 20px;
+}
+.right h1{
+ color: #DD4889;
+}
+.right p{
+    width: 300px;
+}
+.pricekg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons button{
+    color: white;
+    background-color: #DD4889;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+}
+.dots{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    background-color: #DD4889;
+    height: 60vh;
+    color: white;
+    gap: 30px;
+    border-bottom: solid white 2px;
+}
+footer h2{
+    font-size: 20px;
+    align-items: center;
+}
+.lineone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lineone img{
+    width: 30px;
+}
+.lineone h2{
+    color: black;
+}
+.footercontents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.footercontents h3{
+    color: black;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.lastline{
+    color: black;
+    background-color: #DD4889;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+
+@media screen and (max-width : 500px) {
+  nav,.container,.logo,.otherelements,.search,.cakes,.firstpage,.black1,.main,.right,.pricekg,.dots,footer,.lineone,.footercontents,.foot{
+    display: flex;
+  }
+  .otherelements {
+    gap: 15px;
+ }
+ .cakes {
+    gap: 10px;
+ }
+ .firstpage{
+    padding: 0px;
+ }
+ .firstpage h1{
+    padding: 50px 0px ;
+    font-size: 22px;
+ }
+ .firstpage p{
+    font-size: 12px;
+    padding: 0px 20px 100px 20px;
+ }
+ .footercontents {
+    gap: 24px;
+ }
+}
+ @media (min-width:700px) and(max-width:880px){
+
+}
