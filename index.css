@@ -315,7 +315,7 @@ footer h2{
     /* .about,.makertwo,.about2,.cards,.card{
         display: block;
     } */
-    nav,.container,.logo,.otherelements,.search,.cakes,.firstpage,.secondpage,.rightpara,.rightside,.makerone,.headingfooter,.lineone,.about,.makertwo,.about2,.cards,.card,.footercontents,.foot{
+    nav,.container,.logo,.otherelements,.search,.cakes,.firstpage,.rightpara,.rightside,.makerone,.headingfooter,.lineone,.about,.makertwo,.about2,.cards,.card,.footercontents,.foot{
       display: flex;
     }
     .otherelements {
@@ -336,10 +336,11 @@ footer h2{
         padding: 0px 20px 0px 20px;
     }
     .secondpage{
-        gap: 0px;
+        gap: 0px;   
      }
     .secondpage img{
-        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .rightside {
         gap: 190px;
